@@ -134,8 +134,8 @@ Good next steps include adaptive noise-floor estimation, a labeled evaluation se
 
 ## Project report
 
-The repository includes the original [end-to-end project report](<Baby Cry Monitoring System – End-to-End IoT Project _ Jaime Martin&Paula Arias.docx>) with the full design rationale, architecture, signal-processing details, and lessons learned.
+The repository includes the original [end-to-end project report](<Baby Cry Monitoring System – End-to-End IoT Project Report.docx>) with the full design rationale, architecture, signal-processing details, and lessons learned.
 
 ## Team and course context
 
-Built by **Jaime Martin** and **Paula Arias** as an EE250 final project. AI tools were used for development guidance; the team reviewed and modified the resulting code and text with teaching-assistant guidance.
+Developed as an EE250 final project.

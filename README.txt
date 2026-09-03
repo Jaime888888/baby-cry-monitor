@@ -1,5 +1,4 @@
 Baby Cry Monitoring System – README
-Jaime Martin, Paula Arias
 
 1. Project description
    This project is an IoT baby-cry monitor.
