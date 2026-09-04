@@ -1,5 +1,7 @@
 # Baby Cry Monitoring System
 
+[![CI](https://github.com/Jaime888888/baby-cry-monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/Jaime888888/baby-cry-monitor/actions/workflows/ci.yml)
+
 An end-to-end IoT prototype that detects cry-like audio on a Raspberry Pi and alerts a parent through a desktop dashboard. The project combines real-time audio capture, FFT-based signal analysis, MQTT messaging, temporal smoothing, and a Tkinter interface across two physical devices.
 
 > **Safety note:** This is an educational prototype, not a medical device or a substitute for direct adult supervision. Its threshold-based detector can produce false positives and false negatives.
@@ -131,6 +133,14 @@ python parent_dashboard.py
 - A production design should avoid retaining raw audio, encrypt communication, add health monitoring, and validate performance on a diverse labeled dataset.
 
 Good next steps include adaptive noise-floor estimation, a labeled evaluation set, precision/recall reporting, an ML audio classifier, authenticated MQTT, and a lightweight event history.
+
+## Tests
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The signal-analysis tests generate deterministic WAV tones and verify voice-band detection, beep rejection, and frequency-band edge handling without microphone or MQTT hardware.
 
 ## Project report
 
